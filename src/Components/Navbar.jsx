@@ -13,9 +13,11 @@ export default function Navbar() {
   };
 
   const navigate = useNavigate();
+
   useEffect(() => {
-      navigate('/')
-  },[])
+    navigate("/");
+  }, []);
+
 
   return (
     <div className="flex justify-between  lg:justify-start lg:gap-16 items-center p-8 lg:p-16  text-black  relative">

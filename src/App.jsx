@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useNavigate,
+} from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import Portfolio from "./Pages/Portfolio";
@@ -7,6 +12,7 @@ import AboutUs from "./Pages/AboutUs";
 import Contact from "./Pages/Contact";
 
 const App = () => {
+  
   return (
     <Router>
       <div className="bg-gray-100 text-black min-h-screen">
