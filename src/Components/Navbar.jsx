@@ -14,7 +14,7 @@ export default function Navbar() {
 
   const navigate = useNavigate();
   useEffect(() => {
-      navigate('./')
+      navigate('/')
   },[])
 
   return (
