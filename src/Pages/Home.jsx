@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import SafariPackages from "../Components/SafariPackages";
 
 export default function Home() {
   return (
@@ -9,22 +10,23 @@ export default function Home() {
         <img
           src="/t.png"
           alt="Safari"
-          className="flex justify-center w-full  h-auto"
+          className="flex justify-center w-full h-auto"
         />
 
-        <div className="absolute text-[#fff] text-4xl md:text-6xl lg:text-8xl font-bold p-6 font-poppins">
-          <h2>
+        <div className="absolute text-[#c9bfa4] text-4xl md:text-6xl lg:text-8xl font-bold p-6 font-poppins">
+          <h2 className="shadow-sm">
             Explore <br /> the Wild life
           </h2>
-          <p className="mt-4 text-lg md:text-xl lg:text-2xl max-w-2xl font-sans">
+
+          <p className="mt-4 text-[#fff] text-lg md:text-xl lg:text-2xl max-w-2xl font-sans">
             Step into the wild and experience <br /> nature's beauty like never
             before.
           </p>
         </div>
         <div className="absolute p-6 bottom-0 lg:mb-32">
           <Link to="/portfolio">
-            <button className="bg-black text-white px-16 md:px-20 py-4 flex items-center gap-2 group transition-all duration-300">
-              See Our Portfolio
+            <button className="bg-black text-white px-16 md:px-20 py-4 text-xl flex items-center gap-2 group transition-all duration-300">
+              See Our Trips
               <ArrowRight className="w-5 h-5 transform transition-transform duration-300 group-hover:translate-x-2" />
             </button>
           </Link>
@@ -70,14 +72,23 @@ export default function Home() {
       </div>
       <div>
         <div className="flex justify-start items-center relative mt-12">
-          <img src="/ee.jpeg" alt="Safari" className="w-full" />
+          <img src="/ee.jpeg" alt="Safari" className="w-full h-auto" />
 
-          <div className="absolute text-[#fff] text-4xl md:text-6xl lg:text-8xl font-bold p-6 font-poppins">
-            <h2>
-              Explore <br /> the Wild life
-            </h2>
+          <div className="absolute text-[#c9bfa4] text-6xl md:text-7xl lg:text-8xl font-bold p-6 font-poppins ">
+            <h4>
+              Unforgettable <br /> Moments
+            </h4>
+            <Link to="/about">
+              <button className="bg-black text-white px-16 md:px-20 py-6 mt-4 text-xl flex items-center gap-2 group transition-all duration-300">
+                About Us
+                <ArrowRight className="w-5 h-5 transform transition-transform duration-300 group-hover:translate-x-2" />
+              </button>
+            </Link>
           </div>
         </div>
+        <section className="p-6">
+          < SafariPackages />
+        </section>
       </div>
     </div>
   );

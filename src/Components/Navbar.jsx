@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -29,8 +29,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/portfolio" className="relative group text-xl">
-              Portfolio
+            <Link to="/trips" className="relative group text-xl">
+              Trips
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
             </Link>
           </li>
@@ -65,8 +65,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="mb-4 text-xl">
-                <Link to="/portfolio" onClick={closeMenu}>
-                  Portfolio
+                <Link to="/trips" onClick={closeMenu}>
+                Trips
                 </Link>
               </li>
               <li className="mb-4 text-xl">
