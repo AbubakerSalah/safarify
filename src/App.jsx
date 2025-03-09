@@ -12,7 +12,6 @@ import AboutUs from "./Pages/AboutUs";
 import Contact from "./Pages/Contact";
 
 const App = () => {
-  
   return (
     <Router>
       <div className="bg-gray-100 text-black min-h-screen">
