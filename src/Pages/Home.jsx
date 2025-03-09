@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="max-w-[1200px] m-auto">
+    <div className="max-w-[1200px] m-auto scroll-smooth">
       <div className="flex justify-start items-center relative ">
         <img
           src="/t.png"
