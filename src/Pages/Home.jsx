@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="max-w-[1300px] m-auto">
+    <div className="max-w-[1280px] m-auto">
       <div className="flex justify-start items-center relative ">
         <img
           src="/t.png"
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-start items-center max-w-[1300px] m-auto">
+      <div className="flex justify-start items-center max-w-[1280px] m-auto">
         <div className="flex lg:justify-center md:gap-32">
           <div className="absolute hidden md:flex item-start text-gray-200 md:text-[80px] lg:text-[200px] m-3 font-bold">
             Welcome
