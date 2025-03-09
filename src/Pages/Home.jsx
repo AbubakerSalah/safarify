@@ -25,7 +25,7 @@ export default function Home() {
         </div>
         <div className="absolute p-6 bottom-0 lg:mb-32">
           <Link to="/portfolio">
-            <button className="bg-black text-white px-16 md:px-20 py-4 text-xl flex items-center gap-2 group transition-all duration-300">
+            <button className="bg-black text-white px-16 md:px-20 py-4 md:text-xl flex items-center gap-2 group transition-all duration-300">
               See Our Trips
               <ArrowRight className="w-5 h-5 transform transition-transform duration-300 group-hover:translate-x-2" />
             </button>
@@ -72,14 +72,14 @@ export default function Home() {
       </div>
       <div>
         <div className="flex justify-start items-center relative mt-12">
-          <img src="/ee.jpeg" alt="Safari" className="w-full h-[900px]" />
+          <img src="/ee.jpeg" alt="Safari" className="w-full h-auto" />
 
           <div className="absolute text-[#c9bfa4] text-4xl md:text-6xl lg:text-8xl font-bold p-6 font-poppins ">
             <h4>
               Unforgettable <br /> Moments
             </h4>
             <Link to="/about">
-              <button className="bg-black text-white px-16 md:px-20 py-6 mt-4 text-xl flex items-center gap-2 group transition-all duration-300">
+              <button className="bg-black text-white px-16 md:px-20 py-6 mt-4 ms:text-xl flex items-center gap-2 group transition-all duration-300">
                 About Us
                 <ArrowRight className="w-5 h-5 transform transition-transform duration-300 group-hover:translate-x-2" />
               </button>
