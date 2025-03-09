@@ -72,7 +72,7 @@ export default function Home() {
       </div>
       <div>
         <div className="flex justify-start items-center relative mt-12">
-          <img src="/ee.jpeg" alt="Safari" className="w-full h-auto" />
+          <img src="/ee.jpeg" alt="Safari" className="w-full h-[900px]" />
 
           <div className="absolute text-[#c9bfa4] text-4xl md:text-6xl lg:text-8xl font-bold p-6 font-poppins ">
             <h4>
