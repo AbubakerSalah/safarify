@@ -9,7 +9,7 @@ export default function Contact() {
     <div className="max-w-[1000px] m-auto scroll-smooth p-6">
       {/* Contact Information */}
       <div className="text-center mt-12">
-        <h2 className="text-4xl font-bold text-[#c9bfa4] mb-6">Contact Us</h2>
+        <h2 className="text-4xl font-bold text-[#3E2723] mb-6">Contact Us</h2>
         <p className="text-lg text-gray-600">
           We’d love to hear from you! Reach out to us through the details below.
         </p>
@@ -26,7 +26,7 @@ export default function Contact() {
 
       {/* Contact Form Section */}
       <div className="p-6 text-center mt-16">
-        <h3 className="text-3xl font-bold text-[#c9bfa4] mb-4">
+        <h3 className="text-3xl font-bold text-[#3E2723] mb-4">
           Send Us a Message
         </h3>
         <form className="max-w-4xl mx-auto space-y-6">

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col md:flex-row items-center md:items-start justify-between p-8 lg:p-16 text-black relative w-full">
+    <div className="flex flex-col md:flex-row items-center md:items-start justify-between p-8 lg:p-16 text-[#3E2723] relative w-full">
       {/* Logo - Always left on md and up */}
       <div className="flex justify-center md:justify-start w-full md:w-auto">
-        <h1 className="text-4xl lg:text-5xl font-poppins font-bold">
+        <h1 className="text-4xl lg:text-5xl text-[#3E2723] font-poppins font-bold">
           safarify
         </h1>
       </div>
@@ -14,29 +14,29 @@ export default function Footer() {
       {/* Nav and Copyright - Always Centered */}
       <div className="flex flex-col items-center w-full">
         <nav>
-          <ul className="flex flex-col md:flex-row items-center gap-8 mt-4 text-gray-500">
+          <ul className="flex flex-col md:flex-row items-center gap-8 mt-4 text-[]#3E2723">
             <li>
               <Link to="/" className="relative group text-xl">
                 Home
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3E2723] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
               </Link>
             </li>
             <li>
               <Link to="/trips" className="relative group text-xl">
                 Trips
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3E2723] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
               </Link>
             </li>
             <li>
               <Link to="/about" className="relative group text-xl">
                 About us
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3E2723] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
               </Link>
             </li>
             <li>
               <Link to="/contact" className="relative group text-xl">
                 Contact
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3E2723] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
               </Link>
             </li>
           </ul>

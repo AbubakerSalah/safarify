@@ -48,12 +48,12 @@ const trips = [
 export default function Trips() {
   return (
     <section className="scroll-smooth text-center max-w-6xl mx-auto p-6">
-      <h1 className="text-4xl md:text-6xl text-[#c9bfa4] font-bold pb-8">Our Trips</h1>
+      <h1 className="text-4xl md:text-6xl text-[#3E2723] font-bold pb-8">Our Trips</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {trips.map((trip, index) => (
           <div
             key={index}
-            className="shadow-lg bg-white hover:scale-105 transition-transform duration-300 rounded-lg overflow-hidden"
+            className="shadow-xl bg-[#fdf7ea]hover:scale-105 transition-transform duration-300 rounded-lg overflow-hidden"
           >
             <img
               src={trip.image}

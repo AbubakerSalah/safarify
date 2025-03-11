@@ -86,7 +86,7 @@ export default function SafariPackages() {
       >
         {packages.map((pkg, index) => (
           <SwiperSlide key={index}>
-            <div className="p-6 overflow-hidden shadow-lg bg-white cursor-grab active:cursor-grabbing hover:scale-105 transition-transform duration-300 rounded-lg">
+            <div className="p-6 overflow-hidden shadow-xl bg-[#fdf7ea] cursor-grab active:cursor-grabbing hover:scale-105 transition-transform duration-300 rounded-lg">
               <img
                 src={pkg.image}
                 alt={`${pkg.text} Safari Package`}
