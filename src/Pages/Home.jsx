@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import SafariPackages from "../Components/SafariPackages";
@@ -7,18 +7,12 @@ import Footer from "../Components/Footer";
 export default function Home() {
   return (
     <div className="max-w-[1200px] m-auto scroll-smooth">
-      <div className="flex justify-start items-center relative ">
-        <img
-          src="/t.png"
-          alt="Safari"
-          className="flex justify-center w-full h-auto"
-        />
-
+      <div className="flex justify-start items-center relative">
+        <img src="/t.png" alt="Safari" className="w-full h-auto" />
         <div className="absolute text-[#c9bfa4] text-4xl md:text-6xl lg:text-8xl font-bold p-6 font-poppins">
           <h2 className="shadow-sm">
             Explore <br /> the Wild life
           </h2>
-
           <p className="mt-4 text-[#fff] text-lg md:text-xl lg:text-2xl max-w-2xl font-sans">
             Step into the wild and experience <br /> nature's beauty like never
             before.
@@ -65,26 +59,25 @@ export default function Home() {
               </p>
             </div>
           </div>
-
           <div className="hidden lg:flex pt-16">
-            <img src="/j.jpeg" alt="Safari" />
+            <img src="/j.jpeg" alt="Safari" className="rounded-lg shadow-lg" />
           </div>
         </div>
       </div>
+
       <div>
         <div className="flex justify-start items-center relative mt-12">
           <img
             src="/frendly-g.jpeg"
             alt="Safari"
-            className="w-full h-[1060px] "
+            className="w-full max-h-[600px] object-cover"
           />
-
-          <div className="absolute  p-6">
-            <h4 className="text-[#c9bfa4] text-4xl md:text-6xl lg:text-8xl font-bold ">
+          <div className="absolute p-6 text-start">
+            <h4 className="text-[#c9bfa4] text-4xl md:text-6xl lg:text-7xl font-bold">
               Unforgettable <br /> Moments
             </h4>
             <Link to="/about">
-              <button className="bg-black text-white px-16 md:px-20 py-4 mt-4 flex items-center gap-2  group transition-all duration-300">
+              <button className="bg-black text-white  px-16 md:px-20 py-4 mt-4 flex items-center gap-2 group transition-all duration-300">
                 About Us
                 <ArrowRight className="w-5 h-5 transform transition-transform duration-300 group-hover:translate-x-2" />
               </button>
