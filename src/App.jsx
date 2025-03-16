@@ -14,15 +14,13 @@ import Contact from "./Pages/Contact";
 const App = () => {
   return (
     <Router>
-      <div className="bg-[#fcf4e1] text-[#3E2723] min-h-screen">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/trips" element={<Trips />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="" element={<Home />} />
+        <Route path="trips" element={<Trips />} />
+        <Route path="about" element={<AboutUs />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
     </Router>
   );
 };
