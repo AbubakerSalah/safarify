@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  useNavigate,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import Trips from "./Pages/Trips";
@@ -16,7 +11,7 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="trips" element={<Trips />} />
         <Route path="about" element={<AboutUs />} />
         <Route path="contact" element={<Contact />} />
