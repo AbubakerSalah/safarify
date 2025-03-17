@@ -40,7 +40,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link to="/about" className="relative group text-xl">
-              About us
+              About
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3F3F3F] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
             </Link>
           </li>

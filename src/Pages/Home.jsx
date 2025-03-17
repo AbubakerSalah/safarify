@@ -9,17 +9,17 @@ export default function Home() {
     <div className="max-w-[1200px] m-auto scroll-smooth">
       <div className="flex justify-start items-center relative">
         <img src="/t.png" alt="Safari" className="w-full h-auto" />
-        <div className="absolute text-4xl md:text-6xl lg:text-8xl font-bold p-6 font-poppins text-[#3A2C1A]">
-          <h2 className="relative text-[#ffffffd1] text-5xl md:text-7xl lg:text-8xl mt-8 font-bold leading-tight drop-shadow-2xl">
+        <div className="absolute text-4xl md:text-6xl lg:text-8xl p-6 font-poppins text-[#3A2C1A]">
+          <h2 className="relative text-[#ffffffd1] text-3xl md:text-7xl lg:text-8xl mt-8 font-semibold drop-shadow-2xl">
             Explore the Wild Life Like Never Before
           </h2>
         </div>
 
         <div className="absolute p-6 bottom-0 lg:mb-32">
           <Link to="/trips">
-            <button className="bg-black text-gray-200  px-16 md:px-20 py-4 flex items-center gap-2 group transition-all duration-300">
+            <button className="bg-black text-gray-200  px-12 md:px-20 py-4 flex items-center gap-2 group transition-all duration-300">
               See Our Trips
-              <ArrowRight className="w-5 h-5 transform transition-transform duration-300 group-hover:translate-x-2" />
+              <ArrowRight className="w-4 h-5 transform transition-transform duration-300 group-hover:translate-x-2" />
             </button>
           </Link>
         </div>
