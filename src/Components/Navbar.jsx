@@ -16,34 +16,38 @@ export default function Navbar() {
   }
 
   return (
-    <div className="flex justify-between  lg:justify-start lg:gap-16 items-center p-8 lg:p-16  text-[#3E2723]  relative">
-      <h1 className="text-4xl lg:text-5xl font-poppins font-bold">safarify</h1>
+    <div className="flex justify-between  lg:justify-start lg:gap-16 items-center p-8 lg:p-16  relative">
+      <Link to="/" className="relative group text-xl">
+        <h1 className="text-4xl lg:text-5xl font-poppins font-bold">
+          safarify
+        </h1>
+      </Link>
 
       {/* Desktop */}
       <nav className="hidden lg:flex space-x-16">
-        <ul className="flex space-x-10 mt-4">
+        <ul className="flex space-x-10 mt-4 font-poppins">
           <li>
             <Link to="/" className="relative group text-xl">
               Home
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3F3F3F] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
             </Link>
           </li>
           <li>
             <Link to="/trips" className="relative group text-xl">
               Trips
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3F3F3F] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
             </Link>
           </li>
           <li>
             <Link to="/about" className="relative group text-xl">
               About us
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3F3F3F] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
             </Link>
           </li>
           <li>
             <Link to="/contact" className="relative group text-xl">
               Contact
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3F3F3F] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
             </Link>
           </li>
         </ul>
@@ -51,34 +55,26 @@ export default function Navbar() {
 
       {/* Mobile Hamburger Menu */}
       <div className="lg:hidden">
-        <button onClick={toggleMenu} className="text-5xl">
+        <button onClick={toggleMenu} className="text-4xl">
           {menuOpen ? "X" : "☰"}
         </button>
 
         {/* Mobile*/}
         {menuOpen && (
-          <div className="absolute top-18 right-0 bg-white text-bbg-black w-52 h-80 p-4 z-10 transition-transform duration-300">
-            <ul>
-              <li className="mb-4 text-xl">
-                <Link to="/" onClick={closeMenu}>
-                  Home
-                </Link>
-              </li>
-              <li className="mb-4 text-xl">
-                <Link to="/trips" onClick={closeMenu}>
-                Trips
-                </Link>
-              </li>
-              <li className="mb-4 text-xl">
-                <Link to="/about" onClick={closeMenu}>
-                  About Us
-                </Link>
-              </li>
-              <li className="text-xl">
-                <Link to="/contact" onClick={closeMenu}>
-                  Contact
-                </Link>
-              </li>
+          <div className="absolute top-24 right-0 bg-[#EAD7BB] shadow-md w-full  p-4 z-10 transition-transform duration-300">
+            <ul className="pt-6 flex flex-col items-center gap-4 font-poppins">
+              <Link to="" onClick={closeMenu}>
+                <li className="mb-4 text-xl hover:text-[#6d645a]">Home</li>
+              </Link>
+              <Link to="trips" onClick={closeMenu}>
+                <li className="mb-4 text-xl hover:text-[#6d645a]">Trips</li>
+              </Link>
+              <Link to="about" onClick={closeMenu}>
+                <li className="mb-4 text-xl hover:text-[#6d645a]">About</li>
+              </Link>
+              <Link to="contact" onClick={closeMenu}>
+                <li className="text-xl hover:text-[#6d645a]">Contact</li>
+              </Link>
             </ul>
           </div>
         )}

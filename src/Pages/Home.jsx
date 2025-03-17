@@ -9,16 +9,12 @@ export default function Home() {
     <div className="max-w-[1200px] m-auto scroll-smooth">
       <div className="flex justify-start items-center relative">
         <img src="/t.png" alt="Safari" className="w-full h-auto" />
-        <div className="absolute  text-4xl md:text-6xl lg:text-8xl font-bold p-6 font-poppins">
-          <h2 className="
-          ">
-            Explore <br /> the Wild life
+        <div className="absolute text-4xl md:text-6xl lg:text-8xl font-bold p-6 font-poppins text-[#3A2C1A]">
+          <h2 className="relative text-[#ffffffd1] text-5xl md:text-7xl lg:text-8xl mt-8 font-bold leading-tight drop-shadow-2xl">
+            Explore the Wild Life Like Never Before
           </h2>
-          <p className="mt-4 text-gray-300 text-lg md:text-xl lg:text-2xl max-w-2xl font-sans">
-            Step into the wild and experience <br /> nature's beauty like never
-            before.
-          </p>
         </div>
+
         <div className="absolute p-6 bottom-0 lg:mb-32">
           <Link to="/portfolio">
             <button className="bg-black text-gray-200  px-16 md:px-20 py-4 flex items-center gap-2 group transition-all duration-300">
@@ -31,15 +27,15 @@ export default function Home() {
 
       <div className="flex justify-start items-center max-w-[1200px] m-auto">
         <div className="flex lg:justify-center md:gap-32">
-          <div className="absolute hidden md:flex item-start text-gray-300 md:text-[80px] lg:text-[200px] m-3 font-bold">
+          <div className="absolute hidden md:flex item-start text-[#ffffff8b] md:text-[80px] lg:text-[200px] m-3 font-bold">
             Welcome
           </div>
           <div className="md:mt-24 lg:mt-52 p-6 ">
-            <h3 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl  font-bold font-poppins">
+            <h3 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold font-poppins">
               Welcome to <br />
               Safarify
             </h3>
-            <div className="text-gray-500 text-lg max-w-[800px]">
+            <div className="text-[#3F3F3F] text-lg max-w-[800px]">
               <p className="mt-4">
                 Safarify is your ultimate gateway to unforgettable safari
                 adventures. Whether you're exploring the vast savannas,
@@ -74,7 +70,7 @@ export default function Home() {
             className="w-full max-h-[600px] object-cover"
           />
           <div className="absolute p-6 text-start">
-            <h4 className="text-gray-200  text-4xl md:text-6xl lg:text-7xl font-bold">
+            <h4 className="text-[#ffffffd1] text-4xl md:text-6xl lg:text-7xl font-bold">
               Unforgettable <br /> Moments
             </h4>
             <Link to="/about">

@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  @apply bg-[#EAD7BB];
+  @apply text-[#4B3B2A];
+}

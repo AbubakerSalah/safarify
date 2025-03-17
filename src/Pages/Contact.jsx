@@ -9,26 +9,22 @@ export default function Contact() {
     <div className="max-w-[1000px] m-auto scroll-smooth p-6">
       {/* Contact Information */}
       <div className="text-center mt-12">
-        <h2 className="text-4xl font-bold text-[#3E2723] mb-6">Contact Us</h2>
-        <p className="text-lg text-gray-600">
-          We’d love to hear from you! Reach out to us through the details below.
+        <h2 className="text-4xl font-bold  mb-6">Contact us</h2>
+        <p className="text-lg">
+          We'd love to hear from you! Reach out to us through the details below.
         </p>
         <div className="mt-6 space-y-3">
           <p className="text-lg font-semibold">
             📍 Address: storgatan 0, 111 00 Stockholm, Sweden
           </p>
-          <p className="text-lg font-semibold">
-            📧 Email: contact@safarify.com
-          </p>
-          <p className="text-lg font-semibold">📞 Phone: +46 70 123 45 67</p>
+          <p className="text-lg font-semibold">Email: contact@safarify.com</p>
+          <p className="text-lg font-semibold"> Phone: +46 70 123 45 67</p>
         </div>
       </div>
 
       {/* Contact Form Section */}
       <div className="p-6 text-center mt-16">
-        <h3 className="text-3xl font-bold text-[#3E2723] mb-4">
-          Send Us a Message
-        </h3>
+        <h3 className="text-3xl font-bold  mb-4">Send us a Message</h3>
         <form className="max-w-4xl mx-auto space-y-6">
           <input
             type="text"
