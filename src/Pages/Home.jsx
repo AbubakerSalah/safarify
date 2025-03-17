@@ -2,7 +2,6 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import SafariPackages from "../Components/SafariPackages";
-import Footer from "../Components/Footer";
 
 export default function Home() {
   return (
@@ -85,10 +84,6 @@ export default function Home() {
           <SafariPackages />
         </section>
       </div>
-
-      <footer>
-        <Footer />
-      </footer>
     </div>
   );
 }

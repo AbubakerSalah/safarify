@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../Components/Footer";
 
 //const center = { lat: 59.3293, lng: 18.0686 }; // Stockholm coordinates
 const center = { lat: 0.3476, lng: 32.5822 };
@@ -46,11 +45,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-
-      {/* Footer Section */}
-      <footer className="mt-12">
-        <Footer />
-      </footer>
     </div>
   );
 }
