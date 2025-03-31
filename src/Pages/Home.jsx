@@ -8,8 +8,8 @@ export default function Home() {
     <div className="max-w-[1200px] m-auto scroll-smooth">
       <div className="flex justify-start items-center relative">
         <img src="/t.png" alt="Safari" className="w-full h-auto" />
-        <div className="absolute text-4xl md:text-6xl lg:text-8xl p-6 font-poppins text-[#3A2C1A]">
-          <h2 className="relative text-[#ffffffd1] text-3xl md:text-7xl lg:text-8xl mt-8 font-semibold drop-shadow-2xl">
+        <div className="absolute text-4xl md:text-6xl lg:text-8xl p-6 font-poppins top-10 md:top-20 text-[#3A2C1A]">
+          <h2 className="relative text-[#ffffffd1] text-4xl md:text-7xl lg:text-8xl font-semibold drop-shadow-2xl">
             Explore the Wild Life Like Never Before
           </h2>
         </div>
@@ -66,7 +66,7 @@ export default function Home() {
           <img
             src="/frendly-g.jpeg"
             alt="Safari"
-            className="w-full max-h-[600px] object-cover"
+            className="w-full h-auto object-cover"
           />
           <div className="absolute p-6 text-start">
             <h4 className="text-[#ffffffd1] text-4xl md:text-6xl lg:text-7xl font-bold">

@@ -6,60 +6,46 @@ import { Star } from "lucide-react";
 
 const packages = [
   {
-    image: "/fam-e.jpeg",
-    text: "Luxury Safari",
+    image: "/trip1.jpeg",
+    title: "Savanna Adventure",
     price: "$2500",
     duration: "7 Days",
-    rating: 4.9,
+    rating: 4.8,
   },
   {
-    image: "/l-2.jpeg",
-    text: "Wildlife Adventure",
-    price: "$1800",
+    image: "/trip2.jpeg",
+    title: "Jungle Escape",
+    price: "$2000",
     duration: "5 Days",
     rating: 4.7,
   },
   {
-    image: "/jj.jpeg",
-    text: "African Experience",
-    price: "$2200",
-    duration: "6 Days",
-    rating: 4.8,
-  },
-  {
-    image: "/frendly-g.jpeg",
-    text: "Desert Safari",
-    price: "$1500",
+    image: "/trip3.jpeg",
+    title: "Desert Exploration",
+    price: "$1800",
     duration: "4 Days",
     rating: 4.6,
   },
   {
-    image: "/hotel.jpeg",
-    text: "Sunset Escape",
-    price: "$1200",
+    image: "/trip4.jpeg",
+    title: "Luxury Safari",
+    price: "$2900",
+    duration: "7 Days",
+    rating: 4.9,
+  },
+  {
+    image: "/trip5.jpeg",
+    title: "Sunset Retreat",
+    price: "$1500",
     duration: "3 Days",
     rating: 4.5,
   },
   {
-    image: "/mix.jpeg",
-    text: "Jungle Expedition",
-    price: "$2000",
-    duration: "6 Days",
-    rating: 4.7,
-  },
-  {
-    image: "/l.png",
-    text: "Extreme Adventure",
+    image: "/trip6.jpeg",
+    title: "Mountain Expedition",
     price: "$2700",
     duration: "8 Days",
     rating: 5.0,
-  },
-  {
-    image: "/hppy.e.jpeg",
-    text: "Couples Retreat",
-    price: "$1900",
-    duration: "5 Days",
-    rating: 4.8,
   },
 ];
 
@@ -86,14 +72,14 @@ export default function SafariPackages() {
       >
         {packages.map((pkg, index) => (
           <SwiperSlide key={index}>
-            <div className="p-6 overflow-hidden shadow-xl bg-[#f8f0dec7] cursor-grab active:cursor-grabbing hover:scale-105 transition-transform duration-300 rounded-lg">
+            <div className="p-6 overflow-hidden shadow-xl bg-[#f8f0de] cursor-grab active:cursor-grabbing hover:scale-105 transition-transform duration-300 rounded-lg">
               <img
                 src={pkg.image}
                 alt={`${pkg.text} Safari Package`}
-                className="w-full h-[400px] object-cover rounded-t-lg"
+                className="w-full h-[400px] object-cover"
               />
               <div className="p-4 text-center">
-                <h2 className="font-bold text-xl mb-2">{pkg.text}</h2>
+                <h2 className="font-bold text-xl mb-2">{pkg.title}</h2>
                 <p className="text-gray-600">{pkg.duration}</p>
                 <p className="text-lg font-semibold mt-2">{pkg.price}</p>
                 <div className="flex justify-center mt-2 text-yellow-500">
