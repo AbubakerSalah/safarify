@@ -1,7 +1,7 @@
 # Safarify
 
 ## 🚀 Project Overview
-Safarify is a modern safari booking platform that brings users closer to unforgettable wildlife adventures. Whether you're planning a safari trip, exploring curated travel packages, or learning about nature, Safarify ensures a seamless and immersive experience.
+Safarify is a modern safari agency platform that brings users closer to unforgettable wildlife adventures. Whether you're planning a safari trip, exploring curated travel packages, or learning about nature, Safarify ensures a seamless and immersive experience.
 
 ## ✨ Features
 - 🦁 **Safari Trip Previews** – Discover amazing safari destinations with stunning visuals.
