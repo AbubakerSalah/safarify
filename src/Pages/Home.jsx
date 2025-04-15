@@ -5,7 +5,7 @@ import SafariPackages from "../Components/SafariPackages";
 
 export default function Home() {
   return (
-    <div className="max-w-[1200px] m-auto scroll-smooth">
+    <div className="max-w-[1100px] m-auto scroll-smooth">
       <div className="flex justify-start items-center relative">
         <img src="/t.png" alt="Safari" className="w-full h-auto" />
         <div className="absolute text-4xl md:text-6xl lg:text-8xl p-6 font-poppins top-10 md:top-20 text-[#3A2C1A]">
@@ -24,13 +24,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-start items-center max-w-[1200px] m-auto">
+      <div className="flex justify-start items-center max-w-[1100px] m-auto">
         <div className="flex lg:justify-center md:gap-32">
-          <div className="absolute hidden md:flex item-start text-[#ffffff8b] md:text-[80px] lg:text-[200px] m-3 font-bold">
+          <div className="absolute hidden md:flex item-start text-[#3a2c1a3d] md:text-[80px] lg:text-[180px] m-3 font-bold">
             Welcome
           </div>
           <div className="md:mt-24 lg:mt-52 p-6 ">
-            <h3 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold font-poppins">
+            <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-poppins">
               Welcome to <br />
               Safarify
             </h3>

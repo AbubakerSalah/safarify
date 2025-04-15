@@ -16,7 +16,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="flex justify-between  lg:justify-start lg:gap-16 items-center p-8 lg:p-16  relative">
+    <div className="flex justify-between  lg:justify-start lg:gap-16 items-center p-8 lg:p-16 relative">
       <Link to="/" className="relative group">
         <h1 className="text-4xl lg:text-5xl font-poppins font-bold">
           safarify

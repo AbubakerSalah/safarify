@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutUs() {
   return (
-    <div className="max-w-[1200px] m-auto p-6 scroll-smooth">
+    <div className="max-w-[1100px] m-auto p-6 scroll-smooth">
       <div className="text-center">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold">About Us</h1>
         <p className="text-[#3F3F3F] text-lg md:text-xl lg:text-2xl mt-4 max-w-2xl mx-auto">
