@@ -14,9 +14,9 @@ export default function Home() {
           </h2>
         </div>
 
-        <div className="absolute p-6 bottom-0 lg:mb-32">
+        <div className="absolute p-2 bottom-0 lg:mb-32">
           <Link to="/trips">
-            <button className="bg-black text-gray-200  px-12 md:px-20 py-4 flex items-center gap-2 group transition-all duration-300">
+            <button className="bg-black text-gray-200  px-6 md:px-20 py-3 flex items-center gap-2 group transition-all duration-300">
               See Our Trips
               <ArrowRight className="w-4 h-5 transform transition-transform duration-300 group-hover:translate-x-2" />
             </button>
@@ -73,7 +73,7 @@ export default function Home() {
               Unforgettable <br /> Moments
             </h4>
             <Link to="/about">
-              <button className="bg-black text-gray-200   px-16 md:px-20 py-4 mt-4 flex items-center gap-2 group transition-all duration-300">
+              <button className="bg-black text-gray-200   px-6 md:px-20 py-3 mt-4 flex items-center gap-2 group transition-all duration-300">
                 About Us
                 <ArrowRight className="w-5 h-5 transform transition-transform duration-300 group-hover:translate-x-2" />
               </button>
