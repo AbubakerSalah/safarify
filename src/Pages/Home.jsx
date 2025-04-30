@@ -16,7 +16,7 @@ export default function Home() {
 
         <div className="absolute p-2 bottom-0 lg:mb-32">
           <Link to="/trips">
-            <button className="bg-black text-gray-200  px-6 md:px-20 py-3 flex items-center gap-2 group transition-all duration-300">
+            <button className="bg-black text-gray-200 hidden lg:flex px-6 md:px-20 py-3  items-center gap-2 group transition-all duration-300">
               See Our Trips
               <ArrowRight className="w-4 h-5 transform transition-transform duration-300 group-hover:translate-x-2" />
             </button>

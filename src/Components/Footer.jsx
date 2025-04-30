@@ -14,25 +14,25 @@ export default function Footer() {
         <nav>
           <ul className="flex flex-col md:flex-row items-center gap-8 mt-4 font-poppins">
             <li>
-              <Link to="/" className="relative group text-lg">
+              <Link to="/" className="relative group">
                 Home
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3F3F3F] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
               </Link>
             </li>
             <li>
-              <Link to="/trips" className="relative group text-lg">
+              <Link to="/trips" className="relative group">
                 Trips
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3F3F3F] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
               </Link>
             </li>
             <li>
-              <Link to="/about" className="relative group text-lg">
+              <Link to="/about" className="relative group">
                 About
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3F3F3F] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="relative group text-lg">
+              <Link to="/contact" className="relative group">
                 Contact
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#3F3F3F] scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
               </Link>
