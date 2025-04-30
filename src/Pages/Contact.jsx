@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div className="flex flex-col justify-center items-center  scroll-smooth p-6">
       <div className="text-center mt-12">
-        <h2 className="text-4xl font-bold  mb-6">Contact us</h2>
+        <h2 className="text-4xl font-bold  mb-6">Contact Us</h2>
         <p className="text-lg">
           We'd love to hear from you! Reach out to us through the details below.
         </p>
